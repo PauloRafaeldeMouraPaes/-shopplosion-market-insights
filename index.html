@@ -3,8 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Shopplosion Market Insights — inteligência de mercado, consumer & shopper insights, análise de dados e inteligência para importação e exportação.">
-<title>Shopplosion Market Insights</title>
+<meta name="description" content="Shopplosion | Inteligência de mercado, shopper insights, análise de dados e inteligência para importação e exportação.">
+<link rel="canonical" href="https://www.shopplosion.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Shopplosion">
+<meta property="og:title" content="Shopplosion | Inteligência de Mercado e Shopper Insights">
+<meta property="og:description" content="Inteligência de mercado, shopper insights, análise de dados e inteligência para importação e exportação.">
+<meta property="og:url" content="https://www.shopplosion.com/">
+<meta property="og:image" content="https://www.shopplosion.com/assets/og-shopplosion.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:locale" content="pt_BR">
+<meta name="twitter:title" content="Shopplosion | Inteligência de Mercado e Shopper Insights">
+<meta name="twitter:description" content="Inteligência de mercado, shopper insights, análise de dados e inteligência para importação e exportação.">
+<meta name="twitter:image" content="https://www.shopplosion.com/assets/og-shopplosion.svg">
+<title>Shopplosion | Inteligência de Mercado e Shopper Insights</title>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Shopplosion",
+  "url":"https://www.shopplosion.com/",
+  "logo":"https://www.shopplosion.com/assets/shopplosion-logo.png",
+  "email":"carinaviegas@shopplosion.com",
+  "taxID":"49.356.117/0001-00",
+  "address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressRegion":"SP","addressCountry":"BR"},
+  "sameAs":[
+    "https://www.linkedin.com/company/shopplosion/home/",
+    "https://www.instagram.com/shopplosion.mi/"
+  ]
+}
+</script>
 <style>
 :root{--surface:#fff;--app:#faf8fb;--sunken:#f5f6f8;--rail:#0b1730;--navy:#0b1730;--ink:#111827;--ink2:#667085;--ink3:#98a1b4;--brand:#e91e73;--yellow:#ffc928;--blue:#28447e;--brandSoft:#fff0f6;--line:#e6e8ef;--max:1180px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--app);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 32px}
@@ -185,9 +216,23 @@ header nav a{font-size:12px!important;min-height:44px!important;padding:10px 6px
 @media(max-width:380px){
 header .nav{padding:0 14px!important}header .brandImage{height:32px!important}header nav{gap:2px!important}header nav a{padding-left:4px!important;padding-right:4px!important;font-size:12px!important}
 }
+
+.menu-toggle{display:none}
+@media(max-width:600px){
+  header .nav{position:relative}
+  .menu-toggle{display:flex!important;width:44px;height:44px;min-width:44px;padding:0;border:0;background:transparent;color:#fff;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;border-radius:8px}
+  .menu-toggle span{display:block;width:20px;height:2px;background:#fff;border-radius:2px;transition:transform .2s ease,opacity .2s ease}
+  header nav{display:none!important;position:absolute;right:20px;top:76px;background:#fff;padding:6px;border-radius:10px;box-shadow:0 12px 30px rgba(11,23,48,.18);min-width:156px;flex-direction:column!important;gap:2px!important;z-index:60}
+  header.menu-open nav{display:flex!important}
+  header nav a{color:#111827!important;text-shadow:none!important;width:100%;min-height:44px!important;padding:10px 12px!important;border-radius:6px}
+  header nav a:hover{color:#e91e73!important;background:#fff0f6;opacity:1!important}
+  header.menu-open .menu-toggle span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+  header.menu-open .menu-toggle span:nth-child(2){opacity:0}
+  header.menu-open .menu-toggle span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+}
 </style></head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#" aria-label="Shopplosion Market Insights"><img class="brandImage" src="assets/shopplosion-logo.png" alt="Shopplosion"></a><nav><a href="#sobre">Sobre</a><a href="#solucoes">Soluções</a><a href="#contato">Contato</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#" aria-label="Shopplosion Market Insights"><img class="brandImage" src="assets/shopplosion-logo.png" alt="Shopplosion"></a><button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button><nav id="site-menu"><a href="#sobre">Sobre</a><a href="#solucoes">Soluções</a><a href="#contato">Contato</a></nav></div></header>
 <main>
 <section class="hero"><div class="wrap"><div class="eyebrow">Shopplosion Market Insights</div><h1>Inteligência de mercado para decisões que movem o negócio.</h1><p>A Shopplosion Market Insights combina inteligência de mercado, análise de dados e conhecimento de consumidores e shoppers para transformar informação em direção para o negócio.</p><div class="hero-cta" aria-label="Ações principais"><a class="button hero-primary" href="#contato">Fale com a gente</a><a class="hero-secondary" href="#solucoes">Ver soluções <span aria-hidden="true">→</span></a></div><div class="hero-flow" aria-label="Como transformamos informação em decisão"><div class="flow-node"><span class="flow-dot"></span><span>Dados</span></div><span class="flow-line"></span><div class="flow-node"><span class="flow-dot"></span><span>Mercado</span></div><span class="flow-line"></span><div class="flow-node"><span class="flow-dot"></span><span>Shopper</span></div><span class="flow-line"></span><div class="flow-node"><span class="flow-dot"></span><span>Insight</span></div><span class="flow-line"></span><div class="flow-node"><span class="flow-dot"></span><span>Decisão</span></div></div><div class="pulse-stage" aria-hidden="true"><div class="pulse-ring r1"></div><div class="pulse-ring r2"></div><div class="pulse-core"></div><div class="pulse-label">MARKET<br>INTELLIGENCE</div></div></div></section>
 <section class="scroll-story" id="sobre"><div class="scroll-sticky"><div class="wrap"><div class="story-label">01 / COMO A SHOPPLOSION PENSA</div><div class="story-copy"><div class="story-step active"><div class="story-kicker">01 · Dados</div><h2>Primeiro, enxergamos o que está acontecendo.</h2><p>Dados de mercado, categorias, canais e comportamento formam a matéria-prima da análise.</p></div><div class="story-step"><div class="story-kicker">02 · Mercado</div><h2>Depois, conectamos os sinais ao contexto.</h2><p>Movimentos, concorrência, tendências e mudanças de mercado ganham significado.</p></div><div class="story-step"><div class="story-kicker">03 · Shopper</div><h2>Entendemos quem está por trás da decisão.</h2><p>Consumidores e shoppers ajudam a explicar necessidades, jornadas e oportunidades.</p></div><div class="story-step"><div class="story-kicker">04 · Insight</div><h2>Transformamos informação em uma leitura clara.</h2><p>O objetivo não é produzir mais dados, mas revelar aquilo que merece atenção.</p></div><div class="story-step"><div class="story-kicker">05 · Decisão</div><h2>E levamos o insight para a ação.</h2><p>Inteligência de mercado existe para orientar escolhas concretas e mover o negócio.</p></div></div><div class="story-progress"><i class="active"></i><i></i><i></i><i></i><i></i></div><div class="story-visual"><div class="story-orbit"></div><div class="story-orbit two"></div><div class="story-pulse"></div></div></div></div></section><div class="band"><div class="wrap"><strong>Comportamento + contexto + dados</strong><span>Uma visão integrada para decisões mais precisas.</span></div></div>
@@ -247,6 +292,14 @@ header .nav{padding:0 14px!important}header .brandImage{height:32px!important}he
 <div class="wrap footer-bottom"><span>CNPJ 49.356.117/0001-00 · São Paulo – SP</span><span>© 2026 Shopplosion. Todos os direitos reservados.</span><span><a href="#privacidade">Política de Privacidade</a><span aria-hidden="true"> | </span><a href="#termos">Termos de Uso</a></span></div>
 </footer>
 <script>
+const menuToggle=document.querySelector('.menu-toggle');
+const siteMenu=document.getElementById('site-menu');
+if(menuToggle&&siteMenu){
+  const closeMenu=()=>{document.querySelector('header').classList.remove('menu-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Abrir menu')};
+  menuToggle.addEventListener('click',()=>{const open=!document.querySelector('header').classList.contains('menu-open');document.querySelector('header').classList.toggle('menu-open',open);menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Fechar menu':'Abrir menu')});
+  siteMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+}
+
 const revealItems=document.querySelectorAll('.reveal');
 const observer=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{threshold:.12}); revealItems.forEach(el=>observer.observe(el));
 const story=document.querySelector('.scroll-story');

@@ -108,7 +108,31 @@ header .brandImage{height:58px!important}
   .footer-logo{height:52px!important}
 }
 </style>
-</head>
+<style id="contact-footer-visual-v2">
+/* Visual de contato e rodapé aprovado pelo layout de referência. */
+.contact-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.contact-card{min-height:158px;padding:18px 12px}
+.contact-icon{width:56px;height:56px}
+.contact-icon svg{width:32px;height:32px}
+.contact-icon.email{background:transparent;color:transparent}
+.contact-icon.email svg{width:58px;height:58px}
+.contact-icon.whatsapp{background:#18c96b}
+.contact-icon.linkedin{background:#0a78b8;border-radius:10px}
+.contact-icon.instagram{background:linear-gradient(135deg,#f7c52b,#ef2471 55%,#7445c8)}
+.site-footer{padding:44px 0 18px}
+.footer-grid{grid-template-columns:1.25fr .72fr .9fr 1.18fr;gap:48px}
+.footer-socials{gap:12px}
+.footer-icon{width:48px;height:48px;border:0}
+.footer-icon.linkedin{background:#0a78b8;color:#fff}
+.footer-icon.instagram{background:linear-gradient(135deg,#f7c52b,#ef2471 55%,#7445c8);color:#fff}
+.footer-icon.whatsapp{background:#18c96b;color:#fff}
+.footer-socials a:hover .footer-icon{background:inherit;transform:translateY(-3px);filter:brightness(1.06)}
+.footer-bottom{margin-top:34px;padding-top:18px}
+.footer-bottom a{color:#aeb8cb;text-decoration:none}
+.footer-bottom a:hover{color:#fff}
+@media(max-width:900px){.contact-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.contact-grid{grid-template-columns:1fr 1fr;gap:10px}.contact-card{min-height:140px}.contact-icon{width:50px;height:50px}.contact-icon.email svg{width:52px;height:52px}.footer-grid{grid-template-columns:1fr}.footer-socials{gap:10px}}
+</style></head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#" aria-label="Shopplosion Market Insights"><img class="brandImage" src="assets/shopplosion-logo.png" alt="Shopplosion"></a><nav><a href="#sobre">Sobre</a><a href="#solucoes">Soluções</a><a href="#contato">Contato</a></nav></div></header>
 <main>
@@ -132,7 +156,7 @@ header .brandImage{height:58px!important}
 <p>Entre em contato para conhecer a Shopplosion Market Insights e conversar sobre um projeto.</p>
 <div class="contact-grid">
 <a class="contact-card" href="mailto:carinaviegas@shopplosion.com">
-<span class="contact-icon email" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span>
+<span class="contact-icon email" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M3.5 4h17A1.5 1.5 0 0 1 22 5.5v13A1.5 1.5 0 0 1 20.5 20H18V9.35L12 13.9 6 9.35V20H3.5A1.5 1.5 0 0 1 2 18.5v-13A1.5 1.5 0 0 1 3.5 4Z"/><path fill="#C5221F" d="M6 9.35 12 13.9l6-4.55V20h-3.2v-7.1L12 15.15 9.2 12.9V20H6V9.35Z"/><path fill="#F2F2F2" d="M3.5 4h17L12 10.55 3.5 4Z"/><path fill="#EA4335" d="m3.5 4 8.5 6.55L20.5 4H3.5Z"/></svg></span>
 <strong>E-mail</strong><small>carinaviegas@shopplosion.com</small>
 </a>
 <a class="contact-card" href="https://wa.me/5511933837878" target="_blank" rel="noopener noreferrer">
@@ -167,7 +191,7 @@ header .brandImage{height:58px!important}
 </div></div>
 <div class="footer-column footer-contact"><strong>Contato direto</strong><a href="mailto:carinaviegas@shopplosion.com"><span class="footer-mail-icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span><span>carinaviegas@shopplosion.com</span></a></div>
 </div>
-<div class="wrap footer-bottom"><span>CNPJ 49.356.117/0001-00 · São Paulo – SP</span><span>© 2026 Shopplosion. Todos os direitos reservados.</span><span>Inteligência de mercado</span></div>
+<div class="wrap footer-bottom"><span>CNPJ 49.356.117/0001-00 · São Paulo – SP</span><span>© 2026 Shopplosion. Todos os direitos reservados.</span><span><a href="#privacidade">Política de Privacidade</a><span aria-hidden="true"> | </span><a href="#termos">Termos de Uso</a></span></div>
 </footer>
 <script>
 const revealItems=document.querySelectorAll('.reveal');

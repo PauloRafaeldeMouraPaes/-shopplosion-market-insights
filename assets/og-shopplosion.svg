@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Shopplosion Market Insights</title>
+<desc id="desc">Inteligência de mercado e shopper insights</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffc400"/>
+    <stop offset=".28" stop-color="#ff9d20"/>
+    <stop offset=".55" stop-color="#ff4b58"/>
+    <stop offset=".8" stop-color="#f50075"/>
+    <stop offset="1" stop-color="#d90091"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#g)"/>
+<circle cx="1040" cy="110" r="250" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+<circle cx="1040" cy="110" r="180" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+<image href="https://www.shopplosion.com/assets/shopplosion-logo.png" x="80" y="95" width="1040" height="440" preserveAspectRatio="xMidYMid meet"/>
+</svg>
